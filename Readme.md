@@ -2,7 +2,7 @@
 ====================
 
 ### Machine Learning
-- [Notes](/StanfordOnline/tree/master/Machine Learning)
+- [Notes](/KartikTalwar/StanfordOnline/tree/master/Machine Learning)
 
 ### Artificial Intelligence
 
