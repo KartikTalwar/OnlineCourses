@@ -2,8 +2,8 @@
 ====================
 
 ### Machine Learning
-- [1. Introduction](https://github.com/KartikTalwar/OnlineCourses/Stanford%20Online/blob/master/Machine%20Learning/01.%20Introduction.md)
-- [2. Linear Regression with One Variable] (https://github.com/KartikTalwar/OnlineCourses/Stanford%20Online/blob/master/Machine%20Learning/02.%20Linear%20Regression%20with%20One%20Variable.md)
+- [1. Introduction](https://github.com/KartikTalwar/OnlineCourses/blob/master/Stanford%20Online/Machine%20Learning/01.%20Introduction.md)
+- [2. Linear Regression with One Variable] (https://github.com/KartikTalwar/OnlineCourses/blob/master/Stanford%20Online/Machine%20Learning/02.%20Linear%20Regression%20with%20One%20Variable.md)
 
 ### Artificial Intelligence
 
