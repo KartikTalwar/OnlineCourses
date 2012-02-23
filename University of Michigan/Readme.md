@@ -11,7 +11,7 @@ Models help us to better organize information - to make sense of that fire hose 
 
 Models. Evidence shows that people who think with models consistently outperform those who don't. And, moreover people who think with lots of models outperform people who use only one. 
 
-Site: (https://www.coursera.org/modelthinking/) [https://www.coursera.org/modelthinking/]
+Site: https://www.coursera.org/modelthinking/
 
 ### Content
 

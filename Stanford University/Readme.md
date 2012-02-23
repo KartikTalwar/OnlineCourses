@@ -15,7 +15,7 @@ Topics include:
 
 The course will also draw from numerous case studies and applications, so that you'll also learn how to apply learning algorithms to building smart robots (perception, control), text understanding (web search, anti-spam), computer vision, medical informatics, audio, database mining, and other areas.
 
-Site: (http://www.ml-class.org/) [http://www.ml-class.org/]
+Site: http://www.ml-class.org/
 
 ### Content
 
