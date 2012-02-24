@@ -9,8 +9,8 @@ This class will give you an introduction to computing. In seven weeks, you will 
 
 Site: http://www.udacity.com/overview/Course/cs101/
 
-<!-- ### Content
+### Content
 
-1. [Unit 1](https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Michigan/Model%20Thinking/01.%20Why%20Model.md) -->
+1. [Unit 1] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/01.%20Unit%201%20-%20Lecture%20Notes.md)
 
 ______________________________________________________________
