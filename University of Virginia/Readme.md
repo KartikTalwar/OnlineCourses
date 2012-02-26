@@ -11,6 +11,7 @@ Site: http://www.udacity.com/overview/Course/cs101/
 
 ### Content
 
-1. [Unit 1] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/01.%20Unit%201%20-%20Lecture%20Notes.md)
+1. [Unit 1 - Lecture Notes] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/01.%20Unit%201%20-%20Lecture%20Notes.md)
+	+ [Homework] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/01.%20Unit%201%20-%20Homework.md)
 
 ______________________________________________________________
