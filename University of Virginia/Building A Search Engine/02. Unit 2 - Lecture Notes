@@ -1,0 +1,436 @@
+# [Building A Search Engine] (http://www.udacity.com/overview/Course/cs101/)
+
+====================================
+
+## Web Crawler
+
+### Procedural Abstraction
+
+Write a code many times, and change a parameter to do it over again
+
+
+```
+def <name>(<parameters>):
+    <block>
+```
+
+### Quiz
+
+```python
+start_link  = page.find('<a href=')
+start_quote = page.find('"', start_link)
+end_quote   = page.find('"', start_quote + 1)
+url         = page[start_quote + 1:end_quote]
+```
+
+
+**What are the inputs for the procedure, `get_next_target` ?**
+
+- (a) A number giving position of start of link
+- (b) A number giving position of start of next quote
+- (c) A string giving contents of the rest of the web page
+- (d) A number giving position of start of link and a string giving page content
+
+**Answer:** (c)
+
+
+**What should be the outputs of `get_next_target`?**
+
+- (a) A string giving the value of the next target `url`
+- (b) `url`, `page`
+- (c) `url`, `end_quote`
+- (d) `url`, `start_lin`
+
+**Answer:** (c)
+
+
+### Putting it all together
+
+```python
+def get_next_target(s):
+    
+    start_link  = s.find('<a href=')
+    start_quote = s.find('"', start_link)
+    end_quote   = s.find('"', start_quote + 1)
+    url         = s[start_quote + 1:end_quote]
+
+    return url, endquote
+```
+
+
+## Using Procedures
+
+```
+<procedure>(<input>, <input1>, ...)
+              ^         ^
+              |         |
+           operands or arguments 
+```
+
+```python
+def rest_of_string(s):
+    return s[1:]
+
+print rest_of_string('audacity')
+```
+
+
+**What does the `inc` prodecure defined below do?**
+
+```python
+def inc(n):
+    return n + 1
+```
+
+- (a) Nothing
+- (b) Takes a number as input, and outputs that number plus one
+- (c) Takes a number as input, and outputs the same number
+- (d) Takes two numbers as inputs, and ouputs their sum
+
+**Answer:** (b)
+
+
+**What does the `sum` procedure do?**
+
+```python
+def sum(a,b):
+    a = a + b
+```
+
+- (a) Nothing
+- (b) Takes two numbers as its inputs, and outputs their sum
+- (c) Takes two strings as its inputs, and outputs the concatenation of the two strings
+- (d) Takes two numbers as its inputs and changes the value of the first input to be the sum of the two numbers
+
+**Answer:** (a)
+
+
+### Putting it together
+
+```python
+def sum(a,b):
+    a = a + b
+    return a
+```
+
+
+### Quiz
+
+**Define a procedue, `square` that takes one number as its input, and ouputs the square of that number**
+
+
+```python
+def square(n):
+    return n*n
+```
+
+
+### Quiz
+
+**Define a procedure, sum3, that takes three inputs, and outputs the sum of the three input numbers.**
+
+```python
+def sum3(a, b, c):
+    return a + b + c
+```
+
+### Quiz
+
+**Define a procedure, abbaize, that takes two strings as its inputs, and outputs a string that is the first input, followed by two repetitions of the second input, followed by the first input.**
+
+```python
+#abbaize('a','b') => 'abba'
+#abbaize('dog','cat') => 'dogcatcatdog'
+
+def abbaize(s1, s2):
+    return s1 + s2 + s2 + s1
+```
+
+
+### Quiz
+
+
+**Define a procedure, find_second, that takes two strings as its inputs: a search string and a target string. It should output a number that is the position of the second occurence of the target string in the search string.**
+
+
+```python
+#danton = "De l'audace, encore de l'audace, toujours de l'audace"
+#print find_second(danton, 'audace') => 25
+
+def find_second(source, string):
+    first = source.find(string)
+    second = source.find(string, first+1)
+    return second
+```
+
+
+## Making Decisions
+
+### Comparison Operators
+
+Output of a comparison is a boolean value
+
+### Quiz
+
+**Why is the equality comparison done using `==` instead of `=`?**
+
+- (a) Because `=` means approximately equal
+- (b) Because not equal uses two characters
+- (c) Because Guido really likes `=` signs
+- (d) Because `=` means assignment
+- (e) It doesn't matter, we can use either
+
+**Answer:** (d)
+
+
+## If Statements
+
+### Quiz
+
+**Define a procedure, bigger, that takes in two numbers as inputs, and outputs the greater of the two inputs.**
+
+```python
+def bigger(a, b):
+    return a if a > b else b
+```
+
+### Quiz
+
+**Define a procedure, is_friend, that takes a string as its input, and outputs a Boolean indicating if the input string is the name of a friend. Assume I am friends with everyone whose name starts with D and no one else.***
+
+
+```python
+def is_friend(name):
+    return name[0] == 'D'
+```
+
+
+### Quiz
+
+**Define a procedure, is_friend, that takes a string as its input, and outputs a Boolean indicating if the input string is the name of a friend. Assume I am friends with everyone whose name starts with D or N.**
+
+```python
+def is_friend(name):
+    if name[0] == 'D' or name[0] == 'N':
+        return True
+    return False
+```
+
+### Quiz
+
+**Define a procedure, biggest, that takes three numbers as inputs and returns the largest of those three numbers.**
+
+```python
+def biggest(a, b, c):
+    if a > b and a > c:
+        return a
+    if b > a and b > c:
+        return b
+    if c > a and c > b:
+        return c
+```
+
+
+## While Loops
+
+### Quiz
+
+**What does this program do?**
+
+```python
+i = 0
+
+while i != 10:
+    i = i+1
+    print i
+```
+
+- (a) Produce an error
+- (b) Print out the numbers from 0 to 9
+- (c) Print out the numbers from 1 to 9
+- (d) Print out the numbers from 1 to 10
+- (e) Run forever
+
+**Answer:** (d)
+
+## Quiz
+
+**Whad does this program do?**
+
+```python
+i = 1
+while i != 10:
+    i = i+2
+    print i
+```
+
+- (a) Produce an error
+- (b) Print out the numbers 2, 4, 6, 8
+- (c) Print out the numbers 1, 3, 5, 7, 9
+- (d) Print out the numbers 3, 5, 7, 9
+- (e) Run forever
+
+**Answer:** (e)
+
+### Quiz
+
+**Define a procedure, print_numbers, that takes as input a positive whole number, and prints  out all the whole numbers from 1 to the input number.**
+
+```python
+def print_numbers(n):
+    x = 1
+    while x <= n:
+        print x
+        x += 1 
+```
+
+## Quiz
+
+**Define a procedure, factorial, that takes one number as its input and returns the factorial of that number.**
+
+```python
+def factorial(n):
+    prod = 1
+    i    = 1
+    while i <= n:
+        prod *= i
+        i += 1
+    return prod
+```
+
+## Break
+
+
+```
+while <TestExpression>:
+    <Code>
+    if <BreakTest>:
+        break
+    <MoreCode>
+
+<MoreCode>
+```
+
+**Example:**
+
+
+```python
+def print_numbers(n):
+    i = 1
+    while True:
+        if i > n:
+            break
+        print i
+        i += 1
+```
+
+
+### Quiz
+
+**Which of the following are always equivalent to:**
+
+```
+while <T>:
+    <S>
+```
+
+
+- (a)
+
+    ```
+    while <T>:
+        if False:
+            break
+    ```
+
+- (b)
+    
+    ```
+    while <T>:
+        <S>
+        break
+    ```
+
+- (c)
+    
+    ```
+    while True:
+        if <T>:
+            break
+        <S>
+    ```
+
+- (d)
+    
+    ```
+    while <T>:
+        <S>
+        if <T>:
+            <S>
+        else:
+            break
+    ```
+
+**Answer:** (a) & (d)
+
+
+### Quiz
+
+**What does the following code do?**
+
+```python
+s, t = t, s
+```
+
+- (a) Nothing
+- (b) Makes `s` and `t` refer to the original value of `t`
+- (c) Swaps the values of `s` and `t`
+- (d) Error
+
+**Answer:** (c)
+
+
+## Handling No Links
+
+### Quiz
+
+**Modify the get_next_target procedure so that if there is a link it behaves as before, but if there is no link tag in the input string, it outputs None, 0.**
+
+```python
+def get_next_target(page):
+    start_link = page.find('<a href=')
+
+    if start_link == -1:
+        return None, 0
+    
+    start_quote = page.find('"', start_link)
+    end_quote = page.find('"', start_quote + 1)
+    url = page[start_quote + 1:end_quote]
+    return url, end_quote
+```
+
+
+## Print All The Links
+
+```python
+def get_next_target(page):
+    start_link = page.find('<a href=')
+   
+    if start_link == -1:
+        return None, 0
+   
+    start_quote = page.find('"', start_link)
+    end_quote = page.find('"', start_quote + 1)
+    url = page[start_quote + 1:end_quote]
+    
+    return url, end_quote
+
+def print_all_links():
+    while True:
+        url, endpos = get_next_target(page)
+        if url:
+            print url
+            page = page[endpos:]
+        else:
+            break
+```
