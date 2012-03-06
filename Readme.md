@@ -14,6 +14,8 @@
 ### University of Michigan
 - Model Thinking
 
+### University of California Berkely
+- Software Engineering for SaaS
 
 ### University of Virginia
 - Building A Search Engine
