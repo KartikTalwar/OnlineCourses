@@ -17,4 +17,6 @@ Site: https://www.coursera.org/modelthinking/
 
 1. [Why Model?](https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Michigan/Model%20Thinking/01.%20Why%20Model.md)
 
+2. [Segregation and Peer Effects](https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Michigan/Model%20Thinking/02.%20Segregation%20and%20Peer%20Effects.md)
+
 ______________________________________________________________
