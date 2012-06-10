@@ -11,17 +11,29 @@ Site: http://www.udacity.com/overview/Course/cs101/
 
 ### Content
 
-1. [Unit 1 - Lecture Notes] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/01.%20Unit%201%20-%20Lecture%20Notes.md)
+- [Unit 1 - Lecture Notes] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/01.%20Unit%201%20-%20Lecture%20Notes.md)
 	+ [Homework] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/01.%20Unit%201%20-%20Homework.md)
 
 ______________________________________________________________
 
-2. [Unit 2 - Lecture Notes] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/02.%20Unit%202%20-%20Lecture%20Notes.md)
+- [Unit 2 - Lecture Notes] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/02.%20Unit%202%20-%20Lecture%20Notes.md)
 	+ [Homework] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/02.%20Unit%202%20-%20Homework.md)	
 
 ______________________________________________________________	
 
-2. [Unit 3 - Lecture Notes] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/03.%20Unit%203%20-%20Lecture%20Notes.md)
+- [Unit 3 - Lecture Notes] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/03.%20Unit%203%20-%20Lecture%20Notes.md)
     + [Homework] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/03.%20Unit%203%20-%20Homework.md) 
 
+______________________________________________________________	
+
+- [Unit 4 - Lecture Notes] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/04.%20Unit%204%20-%20Lecture%20Notes.md)
+    + [Homework] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/04.%20Unit%204%20-%20Homework.md) 
+
+______________________________________________________________	
+
+- [Unit 5 - Lecture Notes] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/05.%20Unit%205%20-%20Lecture%20Notes.md)
+    + [Homework] (https://github.com/KartikTalwar/OnlineCourses/blob/master/University%20of%20Virginia/Building%20A%20Search%20Engine/05.%20Unit%205%20-%20Homework.md) 
+
 ______________________________________________________________  
+
+
