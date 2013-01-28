@@ -19,3 +19,12 @@
 
 ### University of Virginia
 - Building A Search Engine
+
+### Jena University
+- Introduction to Theoretical Computer Science
+
+### University of Waterloo
+- Discovering Proofs
+
+### Duke University
+- How to Reason and Argue
