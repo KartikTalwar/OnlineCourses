@@ -10,7 +10,6 @@
 - Introduction to Databases
 - Information Theory
 
-
 ### University of Michigan
 - Model Thinking
 
@@ -28,3 +27,6 @@
 
 ### Duke University
 - How to Reason and Argue
+
+### Princeton University
+- Algorithms, Part I
